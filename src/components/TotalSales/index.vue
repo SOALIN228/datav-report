@@ -34,7 +34,7 @@
 import commonCardMixin from '@/mixins/commonCardMixin'
 
 export default {
-  name: 'index',
+  name: 'TotalSales',
   mixins: [commonCardMixin]
 }
 </script>

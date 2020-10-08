@@ -59,7 +59,7 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'SalesView',
   data () {
     return {
       activeIndex: '1',

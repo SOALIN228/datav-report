@@ -24,7 +24,7 @@
 import commonCardMixin from '@/mixins/commonCardMixin'
 
 export default {
-  name: 'index',
+  name: 'TotalOrders',
   mixins: [commonCardMixin],
   methods: {
     getOptions () {

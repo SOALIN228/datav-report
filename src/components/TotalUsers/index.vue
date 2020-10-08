@@ -29,7 +29,7 @@
 import commonCardMixin from '@/mixins/commonCardMixin'
 
 export default {
-  name: 'index',
+  name: 'TotalUsers',
   mixins: [commonCardMixin],
   methods: {
     getOptions () {

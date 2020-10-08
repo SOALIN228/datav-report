@@ -70,7 +70,7 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'BottomView',
   data () {
     return {
       searchUserOption: {

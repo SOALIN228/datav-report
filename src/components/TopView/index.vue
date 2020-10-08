@@ -38,7 +38,7 @@ import TotalUsers from '../TotalUsers'
 import TodayUsers from '../TodayUsers'
 
 export default {
-  name: 'index',
+  name: 'TopView',
   components: {
     TotalSales,
     TotalOrders,

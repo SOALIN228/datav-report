@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'CommonCard',
   props: {
     title: String,
     value: [String, Number]

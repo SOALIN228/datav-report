@@ -5,15 +5,33 @@
 * Desc:
 */
 <template>
-  <div>mapView</div>
+  <div class="map-view">
+    <div class="left">
+      <b-map-scatter/>
+    </div>
+  </div>
 </template>
 
 <script>
+import BMapScatter from '../BMapScatter'
+
 export default {
-  name: 'index'
+  name: 'MapView',
+  components: {
+    BMapScatter
+  }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.map-view {
+  display: flex;
+  margin-top: 20px;
 
+  .left {
+    flex: 0 0 80%;
+    width: 80%;
+    height: 600px;
+  }
+}
 </style>
