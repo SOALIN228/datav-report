@@ -159,9 +159,9 @@ export default {
         }
       },
       title: {
-        text: '外卖销售数据大盘',
+        text: '慕课外卖销售数据大盘',
         subtext: '销售趋势统计',
-        // sublink: 'https://www.meituan.com',
+        link: 'https://www.meituan.com/',
         left: 'center'
       },
       chartSeries: []
