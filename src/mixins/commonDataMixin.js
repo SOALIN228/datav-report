@@ -36,6 +36,7 @@ function wrapperPercentage (o, k) {
   return o && o[k] ? `${o[k]}%` : '0%'
 }
 
+// 获取对象指定属性
 function wrapperObject (o, k) {
   if (o && k.indexOf('.') >= 0) {
     const keys = k.split('.')
@@ -102,6 +103,9 @@ export default {
     userGrowthLastMonth () {
       return wrapperPercentage(this.reportData, 'userGrowthLastMonth')
     },
+    userGrowthLastMonthNumber () {
+      return wrapperNumber(this.reportData, 'userGrowthLastMonth')
+    },
     orderFullYear () {
       return wrapperArray(this.reportData, 'orderFullYear')
     },
@@ -128,6 +132,9 @@ export default {
     },
     category2 () {
       return wrapperObject(this.reportData, 'category.data2')
+    },
+    mapData () {
+      return this.getMapData()
     }
   },
   filters: {
