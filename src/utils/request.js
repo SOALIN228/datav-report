@@ -8,7 +8,7 @@ import axios from 'axios'
 
 const service = axios.create({
   baseURL: 'https://book.youbaobao.xyz:18082',
-  timeout: 500
+  timeout: 5000
 })
 
 service.interceptors.response.use(
